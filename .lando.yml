@@ -1,0 +1,4 @@
+name: theme-task
+recipe: drupal10
+config:
+  webroot: web
