@@ -10,5 +10,13 @@ libraries:
 
 regions:
   header: "Header"
-  content: "Content"
+  nav_branding: "Navigation branding region"
+  nav_main: "Main Navigation region"
+  nav_additional: "Additional navigation region (eg search form, social icon, etc)"
+  breadcrumb: "Breadcrumbs"
+  content: "Main content"
+  content_first: "Content First"
+  sidebar_first: "Sidebar first"
+  sidebar_second: "Sidebar second"
   footer: "Footer"
+  footer_bottom: "Footer bottom"
