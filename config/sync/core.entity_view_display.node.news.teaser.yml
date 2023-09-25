@@ -1,0 +1,24 @@
+uuid: 92abee12-adcc-40f2-bf5f-d96e72ade38c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news.field_description
+    - field.field.node.news.field_tryone
+    - node.type.news
+  module:
+    - user
+id: node.news.teaser
+targetEntityType: node
+bundle: news
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_tryone: true
