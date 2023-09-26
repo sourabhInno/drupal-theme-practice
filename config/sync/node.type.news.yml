@@ -1,0 +1,18 @@
+uuid: 62de948e-d852-4bdc-84cf-f61c67e2a671
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: News
+type: news
+description: 'Add some news here'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

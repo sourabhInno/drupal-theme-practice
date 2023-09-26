@@ -5,3 +5,9 @@ global-styling:
       css/style.css: {}
   js:
     js/script.js: {}
+
+news-styling:
+  version: 1.x
+  css:
+    theme:
+      css/news-page.css: {}
