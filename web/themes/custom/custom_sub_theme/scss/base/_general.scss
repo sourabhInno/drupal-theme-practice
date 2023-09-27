@@ -1,4 +1,5 @@
 /* css resets starts */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -13,15 +14,13 @@
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
-
 ul {
   list-style-type: none;
 }
-
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -32,7 +31,6 @@ html,
 body {
   height: 100%;
 }
-
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -40,8 +38,7 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -57,6 +54,7 @@ svg {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
@@ -70,4 +68,4 @@ a {
   text-decoration: none;
 }
 
-/* css reset ends *//*# sourceMappingURL=style.css.map */
+/* css reset ends */
