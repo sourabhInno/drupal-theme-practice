@@ -20,5 +20,6 @@ list-styling:
   js:
     js/to_do-page.js: { async: true }
   dependencies:
+    - core/drupal
     - core/jquery
-    - core/jquery.once
+    - core/once
