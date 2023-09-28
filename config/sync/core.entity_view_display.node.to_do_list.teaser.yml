@@ -1,0 +1,20 @@
+uuid: eda62450-e83d-4319-9fcc-ec7cf52b75f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.to_do_list
+  module:
+    - user
+id: node.to_do_list.teaser
+targetEntityType: node
+bundle: to_do_list
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
