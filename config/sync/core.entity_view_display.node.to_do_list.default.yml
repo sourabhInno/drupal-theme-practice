@@ -1,0 +1,15 @@
+uuid: 5a97f04e-829e-4f24-8294-79abb147d80c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.to_do_list
+  module:
+    - user
+id: node.to_do_list.default
+targetEntityType: node
+bundle: to_do_list
+mode: default
+content: {  }
+hidden:
+  links: true
